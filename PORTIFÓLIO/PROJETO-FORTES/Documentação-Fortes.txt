@@ -25,3 +25,12 @@ A tabela PROJETOS armazena os dados de todos os projetos, aprovados, reprovados 
 A tabela HISTORICO_ACOMPANHAMENTO armazena os dados de cada etapa do projeto, guardando qual alteração foi feita, a data em que a alteração foi feita, e qual funcionário que aprovou a alteração. Ela recebe os dados do PROJETO e FUNCIONÁRIO através de FK’s.
 
 A tabela USUARIOS_PROJETOS é resultado de uma entidade associativa onde será armazenado os dados para saber quais são os usuários que estão cadastrados para se beneficiar nos projetos. Ela recebe os dados do USUÁRIO e PROJETO correspondente através de FK’s.
+
+
+
+
+
+
+
+
+.
