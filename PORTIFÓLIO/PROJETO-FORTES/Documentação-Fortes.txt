@@ -8,29 +8,30 @@ A tabela LOGIN armazena todos os dados referentes aos login’s de todos os usu�
 
 A tabela ENDERECOS armazena todos os dados referentes aos endereços de todos os usuários do sistema.
 
-A tabela FINANCEIRO armazena o arquivo referente ao questionário preenchido pela EMPRESA responsável pelo PROJETO ao solicitar a aprovação do mesmo.
+A tabela FINANCEIRO armazena o arquivo referente ao questionário preenchido pela EMPRESA 
+responsável pelo PROJETO ao solicitar a aprovação do mesmo.
 
-A tabela FUNCIONARIOS armazena os dados dos funcionários que trabalham administrando os projetos, aprovando ou reprovando eles. Para isso, ela recebe os dados do LOGIN correspondente através uma FK.	
+A tabela FUNCIONARIOS armazena os dados dos funcionários que trabalham administrando os projetos, aprovando ou reprovando eles. 
+Para isso, ela recebe os dados do LOGIN correspondente através uma FK.	
 
-A tabela EMPRESAS armazena os dados das empresas que se cadastraram para dar entrada em algum projeto. Ela recebe os dados do seu LOGIN e ENDEREÇO correspondente através de FK’s.
+A tabela EMPRESAS armazena os dados das empresas que se cadastraram para dar entrada em algum projeto. Ela recebe os dados do seu LOGIN e ENDEREÇO 
+correspondente através de FK’s.
 
-A tabela RECUPERAR_SENHA armazena os dados das alterações de senha, bem como a nova senha e a data e hora em que foi feita a alteração. Para isso, a tabela recebe os dados de LOGIN do usuário/empresa/funcionário que alterou a senha, através de uma FK.
+A tabela RECUPERAR_SENHA armazena os dados das alterações de senha, bem como a nova senha e a data e hora em que foi feita a alteração. 
+Para isso, a tabela recebe os dados de LOGIN do usuário/empresa/funcionário que alterou a senha, através de uma FK.
 
-A tabela USUARIOS armazena os dados dos usuários que se cadastram a fim de se beneficiar de um ou mais projetos. Para isso, a tabela recebe os dados do seu LOGIN e ENDEREÇO correspondente através de FK’s.
+A tabela USUARIOS armazena os dados dos usuários que se cadastram a fim de se beneficiar de um ou mais projetos. 
+Para isso, a tabela recebe os dados do seu LOGIN e ENDEREÇO correspondente através de FK’s.
 
 A tabela FALE_CONOSCO armazena os dados gerados pelo contato dos usuários ao suporte. Para isso, a tabela recebe os dados do USUÁRIO através de uma FK.
 
-A tabela PROJETOS armazena os dados de todos os projetos, aprovados, reprovados ou que estão em andamento. Ela recebe os dados da EMPRESA responsável pelo projeto o arquivo anexado na área FINANCEIRO, através de FK’s.
+A tabela PROJETOS armazena os dados de todos os projetos, aprovados, reprovados ou que estão em andamento. 
+Ela recebe os dados da EMPRESA responsável pelo projeto o arquivo anexado na área FINANCEIRO, através de FK’s.
 
-A tabela HISTORICO_ACOMPANHAMENTO armazena os dados de cada etapa do projeto, guardando qual alteração foi feita, a data em que a alteração foi feita, e qual funcionário que aprovou a alteração. Ela recebe os dados do PROJETO e FUNCIONÁRIO através de FK’s.
+A tabela HISTORICO_ACOMPANHAMENTO armazena os dados de cada etapa do projeto, guardando qual alteração foi feita, 
+a data em que a alteração foi feita, e qual funcionário que aprovou a alteração. Ela recebe os dados do PROJETO e FUNCIONÁRIO através de FK’s.
 
-A tabela USUARIOS_PROJETOS é resultado de uma entidade associativa onde será armazenado os dados para saber quais são os usuários que estão cadastrados para se beneficiar nos projetos. Ela recebe os dados do USUÁRIO e PROJETO correspondente através de FK’s.
+A tabela USUARIOS_PROJETOS é resultado de uma entidade associativa onde será armazenado os dados para saber quais são os usuários que estão cadastrados,
+para se beneficiar nos projetos. 
+Ela recebe os dados do USUÁRIO e PROJETO correspondente através de FK’s.
 
-
-
-
-
-
-
-
-.
